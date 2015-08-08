@@ -1,0 +1,36 @@
+/*
+ * Copyright 2009-2011 Freescale Semiconductor, Inc. All Rights Reserved.
+ *
+ */
+
+/*
+ * The code contained herein is licensed under the GNU Lesser General
+ * Public License.  You may obtain a copy of the GNU Lesser General
+ * Public License Version 2.1 or later at the following locations:
+ *
+ * http://www.opensource.org/licenses/lgpl-license.html
+ * http://www.gnu.org/copyleft/lgpl.html
+ */
+
+/*!
+ * @file mxc_ipudev_test.h
+ *
+ * @brief IPU device lib test implementation
+ *
+ * @ingroup IPU
+ */
+#ifndef __MXC_IPUDEV_TEST_H__
+#define __MXC_IPUDEV_TEST_H__
+
+//#include <linux/ipu.h>
+
+
+
+//extern int parse_config_file(char *file_name, ipu_test_handle_t *test_handle);
+//extern int parse_cmd_input(int argc, char ** argv, ipu_test_handle_t *test_handle);
+
+int start_ipu(int argc, char *argv[]);
+extern void *yuvSourceData;
+extern unsigned char *rgbData;
+#endif
+
